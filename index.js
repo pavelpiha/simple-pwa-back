@@ -15,6 +15,7 @@ restAPI.addDatastore("coffees", datastore);
 app.use(cors());
 app.use("/", restAPI);
 
-app.listen(3000, () => {
+app.listen(3000, '0.0.0.0', () => {
+  // '0.0.0.0', to make it available on the network (not only on localhost)
   console.log("API ready at http://localhost:3000");
 });

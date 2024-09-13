@@ -4,7 +4,7 @@
   "description": "simple server which is uses express-nedb-rest to provide a REST API",
   "main": "index.js",
   "scripts": {
-    "serve": "node index"
+    "start": "node index"
   },
   "author": "",
   "license": "ISC",
