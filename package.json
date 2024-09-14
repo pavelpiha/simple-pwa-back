@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express-nedb-rest": "^1.4.1"
+    "express-nedb-rest": "^1.4.1",
+    "web-push": "^3.6.7"
   }
 }
